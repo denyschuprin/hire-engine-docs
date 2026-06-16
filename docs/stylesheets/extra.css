@@ -1,0 +1,16 @@
+:root {
+  --md-primary-fg-color: #009a5b;
+  --md-primary-fg-color--light: #00b86d;
+  --md-primary-fg-color--dark: #007a48;
+  --md-accent-fg-color: #009a5b;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #00b86d;
+  --md-accent-fg-color: #00b86d;
+}
+
+/* A little more breathing room in step lists */
+.md-typeset ol li {
+  margin-bottom: 0.4rem;
+}

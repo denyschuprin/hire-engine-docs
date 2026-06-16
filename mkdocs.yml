@@ -1,0 +1,64 @@
+site_name: Hire Engine - User Guide
+site_description: Step-by-step guide to using Hire Engine - for clients and customer-service teams.
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Welcome: index.md
+  - Getting Started: getting-started.md
+  - Adding a Company: companies/adding-a-company.md
+  - Collecting Information (Sources): companies/sources.md
+  - Creating the Profile: companies/profile.md
+  - Kununu Credentials: companies/credentials.md
+  - Publishing the Profile: companies/publishing-profile.md
+  - Your Career Page: companies/career-page.md
+  - Job Listings: companies/jobs.md
+  - Managing Users (Admins): admin/users.md
+  - Reference & Troubleshooting: reference.md
