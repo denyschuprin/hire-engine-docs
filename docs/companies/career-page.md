@@ -7,12 +7,13 @@ embed it directly on the company's own website. This is set up on the
 
 ## What the career page shows
 
-Once the profile is **approved** and jobs are **published**, the page displays:
+Once the profile is **approved**, the page goes live and displays:
 
 - A branded header with the company **logo**, **name** and **tagline**.
 - The full profile: who they are, products & services, benefits, what makes them
   special, photos, videos, employee testimonials, locations and application tips.
-- **Open positions** - every published job, each with an **Apply** button.
+- **Open positions** - every published job, each with an **Apply** button
+  (this section stays empty until you publish jobs).
 - Social media links.
 
 !!! note "Before approval"

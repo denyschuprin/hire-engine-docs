@@ -11,7 +11,7 @@ You'll find this on the **Generated Content** tab of a company.
 1. Make sure the company is **Enriched** (at least one source finished).
 2. On the **Generated Content** tab, click **Generate Profile**.
 3. The status changes to **Generating** - this runs in the background and
-   usually takes under a minute. The page updates on its own when it's done.
+   usually takes a minute or two. The page updates on its own when it's done.
 
 When finished, you'll see the full draft, organized into sections.
 
